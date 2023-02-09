@@ -1,28 +1,21 @@
 <html>
-  <head>
-    <title>Multiplication table</title>    
-    <script charset="utf-8" src="multiplicationTable.js">
-    </script>
-    <script charset="utf-8" src="backgroundCell.js">
-    </script>
-    <script charset="utf-8" src="backgrounHandler.js">
-    </script>
-    <script charset="utf-8" src="table.js">
-    </script>
-    <script charset="utf-8" src="square.js">
-    </script>
-    <script charset="utf-8" src="squareSetGenerator.js">
-    </script>
-    <script charset="utf-8" src="sharedFunctions.js">
-    </script>            
-  </head>
-  <body>
-    <canvas id="canForeground" style="background-color: gray;" width="1" height="1">
-    </canvas>
-    <div style="width: 100%; text-align: center; padding-top: 120px;">
-      <button type="button" style="width: 120px; height: 30px; border-radius: 5px; font-size: large; font-weight: bold;" id="btnStart">
-        Start here
-      </button>  
-    </div>
-  </body>
+
+<head>
+  <title>Multiplication table</title>
+</head>
+
+<body>
+  <script type="module">
+    import './Loader.js';
+  </script>
+  <canvas id="canForeground" style="background-color: gray;" width="1" height="1">
+  </canvas>
+  <div style="width: 100%; text-align: center; padding-top: 120px;">
+    <button type="button" style="width: 120px; height: 30px; border-radius: 5px; font-size: large; font-weight: bold;"
+      id="btnStart">
+      Start here
+    </button>
+  </div>
+</body>
+
 </html>
