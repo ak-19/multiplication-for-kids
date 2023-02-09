@@ -1,0 +1,32 @@
+body {
+	background: grey;	
+} 
+	
+canvas {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+#canForeground {
+  background: grey;
+}
+#sceneDiv {
+  all: none;
+}
+#btnStart2 {
+  height: 35px;
+  width: 120px;
+  font-size: 20pt;
+  background-color: red;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+  color: yellow;
+  text-stroke: 1px white;
+  -webkit-text-stroke: 1px white;
+  padding-top: 4px;
+}
+
+.m20 {
+	margin: 20px;
+}
